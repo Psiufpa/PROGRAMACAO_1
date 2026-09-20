@@ -1,0 +1,75 @@
+PARTE 1
+a) Cite dois exemplos de seu dia a dia nos quais você encontra explicitados entrada, saída e
+processamento.
+
+ENVIO DE UM PIX PARA ALGUEM
+ENTRADA: DIGITA-SE O VALOR DO PIX (TRANSFERENCIA)
+PROCESSAMENTO: VERIFICA SE HÁ SALDO, E A CHAVE SE É VÁLIDA, E PROCESSA-SE A OPERAÇÃO, DEBITANDO DO SALDO DA CONTA E CREDITANDO O VALOR NA CONTA EM QUESTÃO.
+SAÍDA: COMPROVANTE DA OPERAÇÃO
+
+b) Faça um programa que escreva na tela a mensagem “É preciso fazer toda a lista para
+aprender!”.
+
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    cout << "É preciso fazer toda a lista para aprender!\n";
+
+    return 0;
+}
+
+
+c) Faça um programa que leia o nome de uma pessoa (sem espaço) e escreva na tela a
+mensagem: nomeDaPessoa, você é especial.
+
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    string nome;
+
+    cin >> nome;
+
+    cout << nome << ", você é especial.\n";
+
+    return 0;
+}
+
+
+d) Faça um programa que imprime a média aritmética entre 8, 9 e 7. Esse programa tem
+entrada de dados?
+
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    float media;
+
+    media = (8 + 9 + 7) / 3.0;
+
+    cout << media << "\n";
+
+    return 0;
+}
+
+
+e) Faça um programa que imprime a terça parte de um número real. Esse programa tem
+entrada de dados?
+
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    float numero;
+
+    cin >> numero;
+
+    cout << numero / 3.0 << "\n";
+
+    return 0;
+}
