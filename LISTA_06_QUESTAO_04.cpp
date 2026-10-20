@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
     
-    int matriz[2][2];
+    int matriz[3][2];
     
     for (int i = 0; i < 3; i++) 
     
